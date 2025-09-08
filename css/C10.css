@@ -1,0 +1,54 @@
+ body {
+ background-color: rgb(196, 165, 138);
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+ }
+ h1{
+    font-weight: bold;
+ }
+ fieldset {
+ width: 400px;
+ border: 1px solid #dcdcdc;
+ border-radius: 10px;
+ padding: 20px;
+ margin: 150px auto 20px auto;
+ }
+ legend {
+ background-color: #efefef;
+ border:none;
+ border-radius: 10px;
+ padding: 10px 20px;
+text-transform: uppercase;
+ cursor: pointer;
+ }
+ legend:hover {
+ background-color: #3f1dbb;
+ color: white;
+ }
+ label {
+ display: block;
+ margin-top: 5px;
+ margin-bottom: 10px;
+ }
+ input[type="text"],
+    input[type="number"] {
+ width: 200px;
+ height: 30px;
+ border: 1px solid #bdbdbd;
+ border-radius: 10px;
+ padding-left: 10px;
+ margin-left: 10px;
+ border: none;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ input[type="submit"] {
+ color: #ffffff;
+ background-color: #b9e493;
+ border-radius: 10px;
+ padding: 10px;
+border: none;
+ cursor: pointer;
+ }
+ input[type="submit"]:hover {
+ background-color: green;
+ }
